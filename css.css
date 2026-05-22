@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');
+h1{
+    text-align: center;
+}
+body{
+
+}
+nav{
+    border: 5px solid #f7de02;
+    padding: 3px;
+}
+.sl{
+    display: flex;
+    padding: 5px;
+    margin: auto;
+}
+.cnop{
+    color: #f7de02;
+    margin: auto;
+    background-color: blue;
+    border: 4px solid blue;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0,75;
+}
+.cnop:hover{
+    transform: scale(1,2);
+}
+iframe{
+    width: 1000px;
+    height: 1000px;
+}
+.b{
+    margin: auto;
+    background-color: #f7de02;
+    width: fit-content;
+    height: fit-content;
+}
+section{
+    display: flex;
+}
+img{
+    margin: auto;
+    height: 230px;
+    width: 230px;
+}
