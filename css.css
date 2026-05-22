@@ -21,10 +21,10 @@ nav{
     border: 4px solid blue;
     border-radius: 5px;
     text-decoration: none;
-    transition: 0,75;
+    transition: 0.75s;
 }
 .cnop:hover{
-    transform: scale(1,2);
+    transform: scale(1.1);
 }
 iframe{
     width: 1000px;
