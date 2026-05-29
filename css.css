@@ -3,10 +3,13 @@ h1{
     text-align: center;
 }
 body{
-
+    background-color: #004018;
+    color: #9BB348;
+    font-weight: bold;
+    font-size: 20px;
 }
 nav{
-    border: 5px solid #f7de02;
+    border: 5px solid #002B11;
     padding: 3px;
 }
 .sl{
@@ -15,16 +18,13 @@ nav{
     margin: auto;
 }
 .cnop{
-    color: #f7de02;
+    color: white;
     margin: auto;
-    background-color: blue;
-    border: 4px solid blue;
+    background-color: #9C9200;
+    border: 4px solid #9C9200;
     border-radius: 5px;
     text-decoration: none;
     transition: 0.75s;
-}
-.cnop:hover{
-    transform: scale(1.1);
 }
 iframe{
     width: 1000px;
@@ -36,11 +36,150 @@ iframe{
     width: fit-content;
     height: fit-content;
 }
-section{
-    display: flex;
+.cnop:hover{
+    transform: scale(1.2);
 }
-img{
-    margin: auto;
-    height: 230px;
-    width: 230px;
+@media (min-width: 200px) {
+    /* картинки */
+    img{
+        width: 190px;
+    }
+    section{
+        text-align: center;
+    }
+    .i404{
+        width: 190px;
+    }
+    /* кнопка */
+    .cnop{
+        color: white;
+        margin: auto;
+        background-color: #9C9200;
+        border: 4px solid #9C9200;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.75s;
+        width: 120px;
+    }
+    iframe{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (min-width: 400px) {
+    /* картинки */
+    img{
+        width: 390px;
+    }
+    section{
+        text-align: center;
+    }
+    .i404{
+        width: 390px;
+        text-align: center;
+    }
+    /* кнопка */
+    .cnopr{
+        color: white;
+        margin: auto;
+        background-color: #9C9200;
+        border: 4px solid #9C9200;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.75s;
+        width: 120px;
+    }
+    iframe{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media (min-width: 600px) {
+    /* картинки */
+    img{
+        width: 590px;
+    }
+    section{
+        text-align: center;
+    }
+    .i404{
+        width: 590px;
+        text-align: center;
+    }
+    /* кнопка */
+    .cnop{
+        color: white;
+        margin: auto;
+        background-color: #9C9200;
+        border: 4px solid #9C9200;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.75s;
+        width: 120px;
+    }
+    iframe{
+        width: 600px;
+        height: 600px;
+    }
+}
+@media (min-width: 900px) {
+    /* картинки */
+    img{
+        width: 450px;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        gap: 3px;
+    }
+    .i404{
+        width: 890px;
+        text-align: center;
+    }
+    /* кнопка */
+    .cnop{
+        color: white;
+        margin: auto;
+        background-color: #9C9200;
+        border: 4px solid #9C9200;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.75s;
+        width: 120px;
+    }
+    iframe{
+        width: 900px;
+        height: 900px;
+    }
+}
+  
+@media (min-width: 1280px) {
+    /* картинки */
+    img{
+        width: 550px;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .i404{
+        width: 1270px;
+        text-align: center;
+    }
+    /* кнопка */
+    .cnop{
+        color: white;
+        margin: auto;
+        background-color: #9C9200;
+        border: 4px solid #9C9200;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.75s;
+        width: 120px;
+    }
+    iframe{
+        width: 1280px;
+        height: 1280px;
+    }
 }
